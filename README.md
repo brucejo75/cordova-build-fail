@@ -10,13 +10,12 @@ $ npm run build |& tee .buildlog
 
 Errors out:
 ```
-Retrying to install cordova-plugin-device-name.
-Plugin cordova-plugin-device-name was not installed.
+Plugin cordova-plugin-statusbar was not installed.
 /home/brucejo/.meteor/packages/meteor-tool/.2.7.3.1xu2799.gx8e++os.linux.x86_64+web.browser+web.browser.legacy+web.cordova/mt-os.linux.x86_64/dev_bundle/lib/node_modules/meteor-promise/promise_server.js:218
       throw error;
       ^
 
-Error: Some Cordova plugins installation failed: (cordova-plugin-device-name).
+Error: Some Cordova plugins installation failed: (cordova-plugin-statusbar).
     at CordovaProject.ensurePluginsWereInstalled (/tools/cordova/project.js:822:13)
     at CordovaProject.ensurePluginsWereInstalled (/tools/cordova/project.js:819:12)
     at /tools/cordova/project.js:781:14
